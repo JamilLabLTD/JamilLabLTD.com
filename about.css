@@ -1,0 +1,265 @@
+/*Container Area*/
+.about_container{
+    margin-top: 55px;
+    background-color: rgb(221, 221, 221);
+}
+.about_container h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(167, 167, 167);
+    text-align: left;
+    padding-left: 15px;
+}
+.about_container p{
+    text-align: justify;
+    padding: 5px 15px;
+    padding-right: 20px;
+    font-size: 125%;
+    color: rgb(63, 63, 63);
+}
+.our_group h1{
+    text-align: left;
+    margin-top: 15px;
+}
+.grp_admin{
+    width: 30%;
+    height: 450px;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid rgb(182, 2, 189);
+    border-radius: 5px;
+    background-color: white;
+    transition: 1s;
+}
+.grp_admin:hover{
+    border: 2px solid green;
+}
+.sub_mem{
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.member{
+    width: 31%;
+    height: 100%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 1s;
+}
+.member:hover{
+    border: 2px solid green;
+}
+.member_area1{
+    float: left;
+}
+.member_area2{
+    margin-left: 3%;
+}
+.member_area3{
+    float: right;
+}
+.about_one{
+    background-color: rgb(221, 221, 221);
+}
+
+
+
+.img_area{
+    width: 100%;
+    height: 88%;
+    overflow: hidden;
+}
+.title_area{
+    width: 100%;
+    height: 12%;
+    overflow: hidden;
+}
+.grp_admin img, .member img{
+    width: 100%;
+    height: 100%; 
+}
+.title_area p{
+    text-align: center;
+    font-size: 110%;
+}
+.admin_title p{
+    color: yellow;
+    background-color: black;
+    font-size: 100%;
+    padding: 10px;
+}
+.title_area{
+    overflow: hidden;
+}
+.skill_ber_area {
+    border: 1px solid none;
+    width: 100%;
+    float: left;
+    background-color: black;
+  }
+  .skill_inside_area{
+      width: 50%;
+      margin: auto;
+      padding-bottom: 20px;
+      padding-top: 20px;
+  }
+  .skill_ber_area h2 {
+    text-align: left;
+    text-decoration: underline;
+    color: green;
+    padding-left: 4%;
+    margin-bottom: 10px;
+  }
+label{
+    color: white;
+}
+  .skills {
+    width: 90%;
+    margin: auto;
+  }
+  #skill_box {
+    height: 15px;
+    border: 1px solid #17a176;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+  .skill_level {
+    height: 100%;
+    background-color: #17a176;
+    text-align: right;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+  }
+  .wordpress_level {
+    width: 95%;
+  }
+  .html_skill {
+    width: 98%;
+  }
+  .css_skill {
+    width: 97%;
+  }
+  .js_level {
+    width: 90%;
+  }
+  .jquery_level {
+    width: 60%;
+  }
+  .php_level {
+    width: 70%;
+  }
+  .android_studio{
+      width: 85%;
+  }
+  .photoshop{
+      width: 92%;
+  }
+  .after_e{
+      width: 85%;
+  }
+  .pre_pro{
+      width: 70%;
+  }
+  .motion{
+      width: 95%;
+  }
+  
+  .dm{
+      width: 99%;
+  }
+  
+  
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    .title_area p{
+        font-size: 90%;
+    }
+    .hridoy p{
+        font-size: 85%;
+    }
+    .admin_title p{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 950px){
+    .title_area p{
+        font-size: 65%;
+    }
+    .admin_title p{
+        font-size: 80%;
+        padding: 15px 0;
+    }
+    .skill_ber_area{
+        width: 100%;
+    }
+    .skill_inside_area{
+        width: 80%;
+    }
+}
+@media screen and (max-width:550px){
+    .about_container{
+        margin-top: 60px;
+        padding-top: 10px;
+    }
+    .about_container h1{
+        text-align: center;
+    }
+    .about_container p{
+        padding-right: 15px;
+    }
+    .our_group h1{
+        text-align: center;
+    }
+    .grp_admin{
+        width: 55%;
+        height: 360px;
+    }
+    .sub_mem{
+        width: 53%;
+        margin: auto;
+    }
+    .member{
+        width: 100%;
+        height: 350px;
+        float: left;
+        margin: 0;
+        margin-top: 10px;
+        background-color: rgb(189, 250, 221);
+    }
+    .title_area p{
+        font-size: 100%;
+    }
+    .admin_title p{
+        padding: 5px 0 12px 0;
+    }
+    .skill_ber_area{
+        width: 100%;
+    }
+    .skill_inside_area{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .our_group h1{
+        font-size: 220%;
+        color: rgb(7, 133, 7);
+    }
+    .grp_admin{
+        width: 85%;
+        height: 420px;
+    }
+    .sub_mem{
+        width: 80%;
+    }
+    .member{
+        height: 400px;
+    }
+}

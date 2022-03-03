@@ -1,0 +1,94 @@
+/*Container Area*/
+.gallery_container{
+    width: 100%;
+    height: 450px;
+}
+.img_area{
+    width: 90%;
+    margin: auto;
+    margin-top: 65px;
+}
+.left_img, .center_img, .right_img{
+    width: 32%;
+    float: left;
+}
+.right{
+    float: right;
+}
+.left img, .right img{
+    width: 250px;
+    height: 170px;
+    margin-top: 15px;
+    border: 4px solid red;
+    border-radius: 2px;
+    transition: 1s;
+}
+.left_first{
+    float: right;
+}
+.left_second, .right_second{
+    float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.right_first{
+    float: left;
+}
+.right_second{
+    float: left;
+    margin-left: 40px;
+}
+.center{
+    width: 30%;
+    height: 430px;
+    margin-left: 2.3%;
+    border: 7px solid rgb(245, 31, 245);
+    border-radius: 2px;
+    transition: 1s;
+}
+.center img{
+    width: 100%;
+    height: 100%;
+}
+.center:hover{
+    border: 7px solid green;
+}
+.left_first:hover, .left_second:hover, .right_first:hover, .right_second:hover{
+    border: 4px solid green;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .center{
+        height: 400px;
+    }
+}
+@media screen and (max-width:650px){
+    .gallery_container{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .img_area{
+        width: 80%;
+        margin: 0 0 0 0;
+        margin: auto;
+    }
+    .left_img, .center_img, .right_img{
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+    .left img, .right img, .center img{
+        margin: 0;
+        float: left;
+        width: 100%;
+        height: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .center{
+        display: none;
+    }
+}
